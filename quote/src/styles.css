@@ -12,7 +12,7 @@ html{
 }
 body{
   min-height: 100vh;
-  background: rgb(219, 216, 216);
+  background: #dae0e6;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

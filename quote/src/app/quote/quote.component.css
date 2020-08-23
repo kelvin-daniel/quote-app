@@ -20,7 +20,7 @@ h1 {
   padding: 10% 20px;
   width: 700px;
   max-width: 100;
-  background: rgb(255, 255, 255);
+  background: #ffffff;
   text-align: left;
   border-bottom-left-radius: 3%;
 }
@@ -29,13 +29,13 @@ h1 {
   width: 400px;
   max-width: 100%;
   padding: 20px 20px;
-  background: rgb(236, 239, 240);
+  background: #ffffff;
   border-top-right-radius: 5%;
 }
 
 
 .quote-section {
-  background: rgba(219, 216, 216);
+  background: #dae0e6;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -52,9 +52,10 @@ h1 {
 .quotes {
   padding: 10px;
   margin: 15px 0;
-  width: 70%;
-  box-shadow: 0 0 5px rgb(255, 255, 255);
+  width: 60%;
+  box-shadow: 0 0 5px rgb(167, 165, 165);
   position: relative;
+  background-color: #ffffff;
   
 }
 
