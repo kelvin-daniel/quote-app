@@ -56,8 +56,10 @@ h1 {
   box-shadow: 0 0 5px rgb(167, 165, 165);
   position: relative;
   background-color: #ffffff;
+  cursor: pointer;
   
 }
+
 
 .quotes button {
   margin-top: 10px;

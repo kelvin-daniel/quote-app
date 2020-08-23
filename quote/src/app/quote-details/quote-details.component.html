@@ -5,6 +5,6 @@
   <p>Created by : {{quote.submittedBy}} on {{quote.setDate | date}}</p>
   <div *ngIf='quote.showBtn' class="btns">
     <button class="hide" (click)='showDesc'> Hide Description</button>
-    <button (click)='deleteQuote(true)'>Delete</button>
+    <button (click)='deleteQuote(true)' class="btn btn-outline-danger">Delete</button>
   </div>
 </div>
