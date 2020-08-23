@@ -1,5 +1,8 @@
 <h1 class="text-left">Quote</h1>
 <section class="intro container ">
+  <div class="new-quote">
+    <app-quote-form (quoteUpdate)='addQuote($event)'></app-quote-form>
+  </div>
   <div>
 
     <p>Inspirational quotes and motivational sayings have an amazing ability to change the way we feel
@@ -12,13 +15,10 @@
     </p>
 
   </div>
-  <div class="new-quote">
-    <app-quote-form (quoteUpdate)='addQuote($event)'></app-quote-form>
-  </div>
 </section>
 
 <section class="quote-section">
-  <h3> MOTIVATIONAL QUOTES</h3>
+  <h3 class="font-weight-bolder"> MOTIVATIONAL QUOTES</h3>
   <div class="high-cont" *ngFor="let quote of quotes; let i = index; let j = index;">
 
     <div class="high-quote" appHighestVote *ngIf='quote.upVote == highest() && highest() > 0'>
