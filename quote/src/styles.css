@@ -9,6 +9,7 @@
 }
 html{
   scroll-behavior: smooth;
+  background-color: antiquewhite;
 }
 body{
   min-height: 100vh;
