@@ -22,7 +22,8 @@ h1 {
   max-width: 100;
   background: #ffffff;
   text-align: left;
-  border-bottom-left-radius: 3%;
+  border-radius: 1%;
+  box-shadow: 0 0 5px rgb(167, 165, 165);
 }
 
 .intro .new-quote {
@@ -30,7 +31,8 @@ h1 {
   max-width: 100%;
   padding: 20px 20px;
   background: #ffffff;
-  border-top-right-radius: 5%;
+  border-radius: 1%;
+  box-shadow: 0 0 5px rgb(167, 165, 165);
 }
 
 
@@ -52,14 +54,18 @@ h1 {
 .quotes {
   padding: 10px;
   margin: 15px 0;
-  width: 60%;
+  width: 80%;
   box-shadow: 0 0 5px rgb(167, 165, 165);
   position: relative;
   background-color: #ffffff;
+  border-radius: 1%;
   cursor: pointer;
   
 }
 
+.quotes:hover{
+  border: 1px solid rgba(49, 47, 47, 0.3);
+}
 
 .quotes button {
   margin-top: 10px;
