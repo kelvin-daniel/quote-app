@@ -1,7 +1,8 @@
 h1 {
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px white;
-  background: rgba(0, 0, 0, 0.8);
+  color: rgb(58, 54, 54);
+  text-shadow: 0 0 10px rgb(138, 134, 134);
+  background: #ffffff;
+  padding-left: 20px;
 }
 
 .intro {
