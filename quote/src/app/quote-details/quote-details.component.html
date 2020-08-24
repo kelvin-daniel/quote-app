@@ -1,10 +1,10 @@
 <div class="quote-details">
-  <div class="votes">
-    Total Up Votes: <span>{{quote.upVote}}</span>
+  <div class="votes text-weight-bold">
+    Current Vote: <span>{{quote.upVote}}</span>
   </div>
   <p>Created by : {{quote.submittedBy}} on {{quote.setDate | date}}</p>
   <div *ngIf='quote.showBtn' class="btns">
-    <button class="hide" (click)='showDesc'> Hide Description</button>
-    <button (click)='deleteQuote(true)' class="btn btn-outline-danger">Delete</button>
+    <button class="btn btn-outline-info" (click)='showDesc'> Hide Description</button>&nbsp;
+    <button (click)='deleteQuote(true)' class="btn btn-outline-danger"><i class="fas fa-trash"></i>&nbsp; Delete</button>
   </div>
 </div>

@@ -5,11 +5,11 @@
 input,
 textarea {
   background: transparent;
-  border-radius: 0px;
+  border-radius: 1px;
   outline-color: black;
 }
-input:focus,
-textarea:focus{
+input:hover,
+textarea:hover{
   background: rgba(255,255,255,0.5);
   border-radius: 7px;
   color: black;
@@ -19,5 +19,10 @@ button{
   padding: 1px 10px;
   color: white;
   outline: none;
+}
+
+label{
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
