@@ -1,5 +1,5 @@
 <nav>
-<h1 class="text-left pb-1 pt-1">Quote</h1>
+<a href="quote-section"><h1 class="text-left pb-1 pt-1">Quote <a href="quote-section"><i class="fas fa-plus-square add"></i></a></h1></a>
 
 </nav>
 <section class="intro container ">
@@ -21,25 +21,25 @@
 </section>
 
 <section class="quote-section">
-  <h2 class="font-weight-bolder"> Quotes </h2>
+  <h2 class="font-weight-bolder q"> Quotes </h2>
   <div class="high-cont" *ngFor="let quote of quotes; let i = index; let j = index;">
 
     <div class="high-quote" appHighestVote *ngIf='quote.upVote == highest() && highest() > 0'>
       <h5>Popular Quote</h5>
       <p></p><br>
-      <p class="date"><i class="fas fa-chart-line"></i>&nbsp; {{quote.setDate | date}}</p>
+      <p class="date">#1 Trending &nbsp; <i class="fas fa-chart-line"></i>&nbsp; {{quote.setDate | date}}</p>
       <p class="quote-descr">"{{quote.description}}"<br> <span>Author: {{quote.author}}</span></p>
       <div class="votes">
         <span id="up" (click)='upVoter(i);highest();'>
-        <i class="fas fa-arrow-up"></i>Up<span>{{quote.upVote}}</span>
+        <i class="fas fa-arrow-up text-success"></i>Up<span>{{quote.upVote}}</span>
         </span>
         <span id="down" (click)='dnVoter(i)'>
-          <i class="far fa-arrow-alt-down"></i>Dn<span class="dn">{{quote.dnVote}}</span>
+          <i class="fas fa-arrow-down text-danger"></i>Dn<span class="dn">{{quote.dnVote}}</span>
         </span>
       </div>
     </div>
   </div>
-  <div class="quotes-cont">
+  <div id="quote-section" class="quotes-cont">
     <div class="quotes" *ngFor="let quote of quotes; let i = index;let j = index;">
       <p></p><br>
       <p class="date">{{quote.setDate | date}}</p>
@@ -50,10 +50,10 @@
       <!-- Votes -->
       <div class="votes">
         <span id="up" (click)='upVoter(i);highest();'>
-          <i class="far fa-thumbs-up"></i>Up<span>{{quote.upVote}}</span>
+          <i class="fas fa-arrow-up text-success"></i>Up<span>{{quote.upVote}}</span>
         </span>
         <span id="down" (click)='dnVoter(i)'>
-          <i class="far fa-arrow-alt-down"></i>Dn<span class="dn">{{quote.dnVote}}</span>
+          <i class="fas fa-arrow-down text-danger"></i>Dn<span class="dn">{{quote.dnVote}}</span>
         </span>
       </div>
       <div *ngIf='quote.showBtn'>

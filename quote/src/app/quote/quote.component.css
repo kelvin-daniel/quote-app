@@ -4,6 +4,19 @@ h1 {
   background: #ffffff;
   padding-left: 20px;
   box-shadow: 0 0 5px rgb(167, 165, 165);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.add {
+  float: right;
+  padding-right: 15px;
+  top: 5px;
+  cursor: pointer;
+}
+
+nav{
+  position: static;
 }
 
 .intro {
@@ -44,6 +57,15 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 20px;
+}
+
+.q::after {
+  content: '';
+  background: #222;
+  display: block;
+  height: 2px;
+  width: 85%;
+  margin: 5px;
 }
 
 .quotes-cont {
