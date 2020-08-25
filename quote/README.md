@@ -6,7 +6,7 @@ This is a program to enable a user to view and create new quotes have them voted
 
 ## Getting Started
 
-Install triangle tracker on your local machine bt cloning this repository:
+clone this repository:
 
 [Github repo](https://github.com/kelvin-daniel/quote-app.git) - https://github.com/kelvin-daniel/quote-app.git
 
