@@ -14,7 +14,7 @@ Install triangle tracker on your local machine bt cloning this repository:
 
 You need a web browser installed on your machine to run this program.
 
-Angular 6 or later and its dependencies.
+Angular 10 or later and its dependencies.
 (if not sure which version you have type the following)
 
 ```
