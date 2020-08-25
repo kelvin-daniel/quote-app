@@ -20,10 +20,10 @@ export class QuoteComponent implements OnInit {
   quotes = [
     new Quotes(
       1,
-      'Walt Disney',
-      'The way to get started is to quit talking and to start doing.',
-      'Arnold',
-      new Date(2019, 2, 10),
+      'Rudyard Kipling',
+      'You must not quit',
+      'Kelvin',
+      new Date(2020, 8, 25),
       0,
       0
     ),
@@ -31,8 +31,8 @@ export class QuoteComponent implements OnInit {
       2,
       'Will Rogers',
       'Do not let yesterday take too much of today.',
-      'Arnold',
-      new Date(2019, 2, 24),
+      'Kelvin',
+      new Date(2020, 8, 25),
       0,
       0
     ),
@@ -40,8 +40,8 @@ export class QuoteComponent implements OnInit {
       3,
       'Winston Churchill',
       'The pessimist sees difficulty in every opportunity. The optimist sees opportunitty in every difficulty.',
-      'Arnold',
-      new Date(2019, 3, 6),
+      'Kelvin',
+      new Date(2020, 8, 25),
       0,
       0
     ),
@@ -49,8 +49,8 @@ export class QuoteComponent implements OnInit {
       4,
       'Unknown',
       'You learn more from failure than from success. Do not let it stop you. Failure builds character.',
-      'Arnold',
-      new Date(2019, 5, 9),
+      'Kelvin',
+      new Date(2020, 8, 25),
       0,
       0
     ),
