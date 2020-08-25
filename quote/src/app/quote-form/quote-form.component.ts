@@ -25,9 +25,4 @@ export class QuoteFormComponent implements OnInit {
   } 
 
 }
-let btnSubmit = document.querySelector('button')
-let inputs = document.querySelectorAll('input')
 
-btnSubmit.addEventListener('click',() => {
-  inputs.forEach(input => input.value = "");
-});

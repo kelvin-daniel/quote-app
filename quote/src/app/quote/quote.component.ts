@@ -21,36 +21,36 @@ export class QuoteComponent implements OnInit {
     new Quotes(
       1,
       'Rudyard Kipling',
-      'You must not quit',
+      'You must not quit!',
       'Kelvin',
-      new Date(2020, 8, 25),
+      new Date(2020, 7, 25),
       0,
       0
     ),
     new Quotes(
       2,
-      'Will Rogers',
-      'Do not let yesterday take too much of today.',
+      'TJ Hunt',
+      'Keep moving foward',
       'Kelvin',
-      new Date(2020, 8, 25),
+      new Date(2020, 7, 25),
       0,
       0
     ),
     new Quotes(
       3,
-      'Winston Churchill',
-      'The pessimist sees difficulty in every opportunity. The optimist sees opportunitty in every difficulty.',
+      'Jake P.',
+      'Hack the coder',
       'Kelvin',
-      new Date(2020, 8, 25),
+      new Date(2020, 7, 15),
       0,
       0
     ),
     new Quotes(
       4,
-      'Unknown',
-      'You learn more from failure than from success. Do not let it stop you. Failure builds character.',
+      'Karma',
+      'I will be back for you',
       'Kelvin',
-      new Date(2020, 8, 25),
+      new Date(2020, 7, 5),
       0,
       0
     ),
